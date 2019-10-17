@@ -1,6 +1,6 @@
 // Foursquare API Info
-const clientId = NO_PEAKING;
-const clientSecret = NO_PEAKING_HERE;
+const clientId = NO_PEEKING;
+const clientSecret = NO_PEEKING_HERE;
 const url = 'https://api.foursquare.com/v2/venues/explore?near=';
 
 // OpenWeather API
