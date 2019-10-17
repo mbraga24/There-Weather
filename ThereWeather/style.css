@@ -1,0 +1,299 @@
+body {
+  text-shadow: 2px 2px 1px black;
+}
+
+header {
+  background-image: url('https://www.reviewgeek.com/thumbcache/0/0/d71d0303b65d72b7061443662328a8c4/p/uploads/2018/04/e0af834a.jpg');
+  background-position: center;
+  text-align: center;
+  margin-bottom: 0px;
+  border-bottom: 3px solid white;
+  height: 45vh;
+}
+
+main {
+  background-image: url('https://images.pexels.com/photos/531756/pexels-photo-531756.jpeg?cs=srgb&dl=atmosphere-background-beautiful-531756.jpg&fm=jpg');
+  background-size: cover;
+  text-align: center;
+  height: 55vh;
+}
+
+h1 {
+  padding-top: 100px;
+  font-family: Montserrat;
+  font-size: 64px;
+  font-weight: 300;
+  letter-spacing: 1.1px;
+  text-align: center;
+  color: white;
+  margin: auto;
+  font-weight: bold;
+}
+
+h3 {
+  font-family: "Work Sans";
+  font-weight: 500;
+  line-height: 1.29;
+  color: #27c19e;
+  padding-left: 5px
+}
+
+p {
+  font-family: "Work Sans";
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 1.36;
+  text-align: left;
+  color: #4a4a4a;
+  padding-left: 5px;
+}
+
+form {
+  margin-top: 50px;
+  height: 100px;
+}
+
+#weather h2 {
+  padding: 5px;
+}
+
+.container {
+  max-width: 900px;
+  margin: auto;
+  visibility: hidden;
+}
+
+#icon {
+  margin: 0 110px;
+}
+
+#weatherMain {
+  text-align: center;
+}
+
+#weatherMain h2 {
+  display: inline-block;
+}
+
+#weatherMain #temperature {
+  font-size: 50px;
+}
+
+#weatherMain #description {
+  font-size: 30px;
+  vertical-align: 30%;
+}
+#weatherDetails .moreDetails {
+  display: block; 
+  text-align: left;
+  line-height: 20px;
+}
+
+#weather h2 {
+  font-family: Montserrat;
+  font-size: 21px;
+  line-height: 0.78;
+  text-align: center;
+  color: white;
+}
+
+#weather #dayCondition {
+  line-height: 1.20;
+}
+
+#locationTitle {
+  text-align: center;
+}
+
+.dayToday {
+  margin-top: 20px;
+}
+
+#weather {
+  width: 350px;
+  height: 360px;
+  margin: 0 auto;
+  padding: 20px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+  background-color: rgba(0,0,0,0.20);
+  border-radius: 10%;
+  text-shadow: 1px 1px 1px black;
+}
+
+.venue {
+  width: 340px;
+  padding: 20px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+  background-color: rgba(0,0,0,0.20);
+  border-radius: 5%;
+  margin-bottom: 10px;
+  color: white;
+  font-weight: 700;
+}
+
+#imageContainer {
+  width: 100%;
+  text-align: center;
+}
+
+#venues {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 50px 50px;
+}
+
+#venues h2 {
+  font-family: Work Sans;
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 0.77;
+  padding-top: 5px;
+  text-shadow: 1px 1px 1px black;
+}
+
+#venueImage {
+  top: 16px;
+  left: 300px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+  border-radius: 100%;
+}
+
+.headerAnimation, .mainAnimation {
+  animation-duration: 1.5s;
+  animation-delay: 0.5s;
+}
+
+.header-title-animation, .main-title-animation {
+  animation-duration: 1s;
+  animation-delay: 1s;
+}
+
+.input-animation, .button-animation {
+  animation-duration: 1s;
+  animation-delay: 1.5s;
+}
+.sectiontitle .title-animation {
+  animation-duration: 1s;
+  animation-delay: 3s;
+}
+
+.alive-animation {
+  animation-duration: 2s;
+  animation-delay: 5s;
+}
+
+#destination {
+  margin: 40px 0;
+  font-family: Montserrat;
+  font-size: 45px;
+  font-weight: 600;
+  letter-spacing: 0.9px;
+  text-align: left;
+  color: #373b79;
+  text-shadow: none;
+}
+
+.sectiontitle {
+  margin-top: 40px;
+}
+
+.sectiontitle #detailTitle {
+  text-align: center;
+  margin: 20px auto;
+}
+
+#destination {
+  width: 100%;
+}
+
+.sectiontitle h2 {
+  font-family: Montserrat;
+  font-size: 22px;
+  font-weight: 300;
+  letter-spacing: 3.4px;
+  text-align: left;
+  color: #373b79;
+  text-shadow: none;
+}
+
+#venues {
+  display: flex;
+  justify-content: space-around;
+  min-height: 250px;
+}
+
+#venues div h3,p {
+  font-size: 18px;
+  color: #373b79;
+  text-shadow: none;
+  padding-top: 10px;
+}
+
+#city {
+  width: 286px;
+  height: 46px;
+  border-radius: 4px;
+  border: solid 2.5px #ffffff;
+  background-color: white;
+  opacity: 0.73;
+  font-family: Source Sans Pro;
+  font-size: 18px;
+  line-height: 1;
+  letter-spacing: 0.4px;
+  text-align: left;
+  color: #373b79;
+  font-weight: 900;
+  font-size: 140%;
+}
+
+#button {
+  width: 140px;
+  height: 46px;
+  border-radius: 4px;
+  background-color: #373b79;
+  font-family: Source Sans Pro;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 0.94;
+  letter-spacing: 0.5px;
+  text-align: center;
+  color: #ffffff;
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (max-width: 576px) {
+  h1 {
+    font-size: 45px;
+  }
+
+  header h1 {
+    padding-top: 120px;
+  }
+
+  main h1 {
+    padding-top: 80px;
+  }
+
+  form {
+    margin-top: 30px;
+    padding-bottom: 10px;
+  }
+
+  #venues {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .venue {
+    margin: 5px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #format-input #city, #button {
+    display: block;
+    margin: 25px auto;
+  }
+}
